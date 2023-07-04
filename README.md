@@ -90,7 +90,8 @@ py app.py
 <p>Team <b>ALT+F4</b> presents a project that was developed in 2 days during the <a href="https://hacks-ai.ru/hackathons.html?eventId=969074&caseEl=981627&tab=3">
     <b><i>Digital Breakthrough 2023 Ural Federal District</i></b></a> hackathon and won <b>1st place</b> in the case from the company <a href="https://roskapstroy.ru/"><b><i>Roskapstroy</i></b></a>.
 </p>
-----
+
+---
 
 ### Technologies Used
 <ul>
@@ -113,6 +114,7 @@ py app.py
     Openpyxl
   </li>
 </ul>
+
 ---
 
 ### Instructions to Run the Web Application
@@ -124,14 +126,19 @@ py app.py
   <div width="50px" height="50px"> --> </div>
   <ul>
           <li>
-Shell
-Copy code
+
+              
+```Shell
+
 pip install -r requirements.txt
+```
   </li>
   <li>
-Shell
-Copy code
+
+
+```Shell
 py app.py
+```
   </li>
   </ul>
     </li>
