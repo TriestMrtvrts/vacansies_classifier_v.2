@@ -56,3 +56,38 @@ python app.py
 </ul>
 
 ### Модель доступна по <a href="https://drive.google.com/file/d/1a-o-HGmqrslVKZeUEBC2yGgW9RxxM8xX/view?usp=drive_link">ссылке<a/>
+
+
+
+
+
+<h1 align="center">Hackathon project: case - "Processing Jobs", Team ALT+F4
+ 
+<a href="https://hacks-ai.ru/hackathons.html?eventId=969074&caseEl=981627&tab=3"><img src="https://img.shields.io/badge/1%20%D0%BC%D0%B5%D1%81%D1%82%D0%BE%20%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BF%D1%80%D0%BE%D1%80%D1%8B%D0%B2-0af560?logo=git&logoColor=d513eb&style=plastic"></img></a>
+<img src="https://img.shields.io/badge/hackathon--project-d513eb">
+
+</h1>
+
+### LIVE DEMO <a href="http://193.187.96.161:5000/">HERE</a> 
+
+### A little about the history of the project:
+
+<p>The <b>ALT + F4 team<b> presents a project that was developed in 2 days as part of the <a href="https://hacks-ai.ru/hackathons.html?eventId=969074&caseEl=981627&tab=3">
+    <b><i>Digital Breakthrough 2023 UFO hackathon</i></b></a> and took <b>1st place<b> in a case from <a href="https://roskapstroy.ru/"><b><i>Roskapstroy</i></b></a>
+</p> 
+
+Used technologies
+
+pandas
+Flask
+Torch
+Transformers
+IO
+Instructions for running the web application
+
+Download the model from the link below
+Place it in the models folder in the web root folder
+paste the path to the model here
+Through the terminal, go to the web folder and run the command
+python app.py
+The model is available at the link
