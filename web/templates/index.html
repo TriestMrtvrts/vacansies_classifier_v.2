@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Вакансия</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index_style.css') }}">
+</head>
+<body>
+<h1>Формирование вакансий</h1>
+<main>
+    <form action="/result" method="post" class="text-form">
+        <label for="inputText">Введите исходный текст:</label>
+        <textarea type="text" id="inputText" name="inputText" rows="15" cols="40" style="resize: none;"></textarea>
+        <button type="submit"> Сформировать</button>
+    </form>
+
+    <br> <!-- Пустая строка -->
+
+    <span class="title-upload">Загрузите файл для с несколькими вакансиями:</span>
+    <form action="/upload" method="post" enctype="multipart/form-data" class="upload-form">
+        <label for="file">Загрузить файл:</label>
+        <input type="file" id="file" name="file">
+        <button type="submit">Сформировать</button>
+    </form>
+    <button onclick="getRandomText()" class="get-random-button">Сгененрировать вакансию</button>
+</main>
+</body>
+<script>
+async function getRandomText(){
+  let res = await fetch("http://193.187.96.161:5000/get_random")
+  res = await res.json()
+  await console.log(res)
+  document.querySelector(".text-form textarea").value = res.text
+}
+</script>
+</html>
