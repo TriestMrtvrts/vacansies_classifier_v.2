@@ -76,18 +76,50 @@ python app.py
     <b><i>Digital Breakthrough 2023 UFO hackathon</i></b></a> and took <b>1st place<b> in a case from <a href="https://roskapstroy.ru/"><b><i>Roskapstroy</i></b></a>
 </p> 
 
-Used technologies
 
-pandas
-Flask
-Torch
-Transformers
-IO
-Instructions for running the web application
+---
+### USED TECHNOLOGIES
 
-Download the model from the link below
-Place it in the models folder in the web root folder
-paste the path to the model here
-Through the terminal, go to the web folder and run the command
+<ul>
+  <li>
+    Pandas
+  </li>
+  <li>
+    Flask
+  </li>
+  <li>
+    Torch
+  </li>
+  <li>
+    Transformers
+  </li>
+  <li>
+    IO
+  </li>
+</ul>
+
+
+
+
+### Instructions for running the web application
+
+
+<ul>
+  <li>Download the model from the link below</li>
+  <li>Place it in the folder <a href="https://github.com/seyoulax/vacansies_classifier_V1/tree/522a3ffb6b32cab7a6ccabd2b27099021d264654/web/models"><b>'models'</b></a> in the root folder <a href="https://github.com/seyoulax/vacansies_classifier_V1/tree/95b2265fb3553904db50908d80ca379dfbc85662/web"><b>'web'</b></a></li>
+  <li>paste <a href="https://github.com/seyoulax/vacansies_classifier_V1/blob/ca19c9b1ed35b7985cb489e3d797359f67b5f715/web/app.py#L15">here</a> the path to the model</li>
+  <li>Through the terminal, go to the <a href="https://github.com/seyoulax/vacansies_classifier_V1/tree/95b2265fb3553904db50908d80ca379dfbc85662/web"><b>'web'</b></a> и folder and run the command</li>
+  <li>
+    
+```Shell
 python app.py
-The model is available at the link
+```
+
+  </li>
+</ul>
+
+  
+  
+### The model is available at the <a href="https://drive.google.com/file/d/1a-o-HGmqrslVKZeUEBC2yGgW9RxxM8xX/view?usp=drive_link">link<a/>
+
+ 
