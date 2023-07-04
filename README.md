@@ -83,11 +83,15 @@ py app.py
 <img src="https://img.shields.io/badge/hackathon--project-d513eb">
 
 </h1>
+
 ### LIVE DEMO <a href="http://193.187.96.161:5000/">HERE</a>
+
 ### About the Project:
 <p>Team <b>ALT+F4</b> presents a project that was developed in 2 days during the <a href="https://hacks-ai.ru/hackathons.html?eventId=969074&caseEl=981627&tab=3">
     <b><i>Digital Breakthrough 2023 Ural Federal District</i></b></a> hackathon and won <b>1st place</b> in the case from the company <a href="https://roskapstroy.ru/"><b><i>Roskapstroy</i></b></a>.
 </p>
+----
+
 ### Technologies Used
 <ul>
   <li>
@@ -109,6 +113,8 @@ py app.py
     Openpyxl
   </li>
 </ul>
+---
+
 ### Instructions to Run the Web Application
 <ul>
   <li>Download the model using the link below</li>
